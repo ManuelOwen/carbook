@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Login</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: poppins;
+    }
+</style>
+
+<body>
+    <div class="login-container">
+        <div class="left-login">
+            <form action="./api/login.php" method="POST">
+                <h6>logo here</h6>
+                <span>welcome back!!</span>
+                <span>Sign In</span>
+                <label for="Email">Email</label>
+                <input type="email" name="email" placeholder="janedoe@gmail.com">
+                <div class="label-control">
+                    <label for="password">Password</label>
+                    <span>Forgotten password?</span>
+                </div>
+                <input type="password" name="password">
+                <div class="btn">
+                    <button name="login">Sign In</button>
+                </div>
+                <div class="btn1">
+                    <p>don't have an account <a href="Signup.html">sign up?</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="right-login">
+            <img src="images/login.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
